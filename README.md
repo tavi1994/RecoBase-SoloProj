@@ -55,7 +55,7 @@ the quality of the code. The code coverage for the API can be found [here](Captu
 *   [Github repository for Selenium Tests](https://github.com/tavi1994/seleniumtestingWorking)
 <a name="depl"></a>
 ## Deployment
-![CI](/Documentation/CI.png)
+![CI](/Captures/CI.png)
 
 The building and deployment process was automated using Jenkins which is set up to run on Google Cloud Platform virtual machine. Both the backend and front end are stored in a Docker container that is being build through Jenkins Execute Shell Commands. Screenshots of the jenkins build can be found [here](Captures/jenkinsBuildsPNG) and [here](Captures/jenkinsSSH.png). 
 <a name="tech"></a>
