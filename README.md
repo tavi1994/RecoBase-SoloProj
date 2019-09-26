@@ -36,7 +36,7 @@ My project involved creating a user friendly website that would allow the users 
 <a name="erd"></a>
 ### Entity Relationship Diagrams
 #### Initial plan
-[Initial ERD](/Captures/ER.PNG)
+![Initial ERD](/Captures/ER.PNG)
 
 The entity relationship diagram from above reveals my initial plan for implementing the tables. Each user would have access to one collection which holds multiple records. The idea was to also have a register page for the user to create a new account and create a collection to store their records.
 
@@ -79,11 +79,11 @@ The building and deployment process was automated using Jenkins which is set up 
 ## Front End Design
 ### Wireframes
 
-[Roster Wireframe](/Captures/wireframe.PNG)
+![Roster Wireframe](/Captures/wireframe.PNG)
 
 ### Final Version 
 
-[Final Front End Design](/Captures/webpage.PNG)
+![Final Front End Design](/Captures/webpage.PNG)
 
 
 
