@@ -36,12 +36,12 @@ My project involved creating a user friendly website that would allow the users 
 <a name="erd"></a>
 ### Entity Relationship Diagrams
 #### Initial plan
-[Initial ERD](/Captures/ER.png)
+[Initial ERD](/Captures/ER.PNG)
 
 The entity relationship diagram from above reveals my initial plan for implementing the tables. Each user would have access to one collection which holds multiple records. The idea was to also have a register page for the user to create a new account and create a collection to store their records.
 
 #### Delivered solution
-![Final ERD](/Captures/ERD.png)
+![Final ERD](/Captures/ERD.PNG)
 
 The delivered solution contains a table that holds all records along with their details. Future updates will implement the initial plan.
 
@@ -57,7 +57,7 @@ the quality of the code. The code coverage for the API can be found [here](Captu
 ## Deployment
 ![CI](/Captures/CI.png)
 
-The building and deployment process was automated using Jenkins which is set up to run on Google Cloud Platform virtual machine. Both the backend and front end are stored in a Docker container that is being build through Jenkins Execute Shell Commands. Screenshots of the jenkins build can be found [here](Captures/jenkinsBuildsPNG) and [here](Captures/jenkinsSSH.png). 
+The building and deployment process was automated using Jenkins which is set up to run on Google Cloud Platform virtual machine. Both the backend and front end are stored in a Docker container that is being build through Jenkins Execute Shell Commands. Screenshots of the jenkins build can be found [here](/Captures/jenkinsBuildsPNG.PNG) and [here](/Captures/jenkinsSSH.PNG). 
 <a name="tech"></a>
 ### Technologies Used
 
@@ -71,7 +71,7 @@ The building and deployment process was automated using Jenkins which is set up 
 *   Jenkins - CI Server
 *   Maven - Dependency Management
 *   [Git](https://github.com/tavi1994/RecoBase-SoloProj) - VCS
-*   [Trello]( ) - Project Tracking
+*   Trello - Project Tracking
 *   GCP - Live Environment
 *   Docker
 
@@ -79,11 +79,11 @@ The building and deployment process was automated using Jenkins which is set up 
 ## Front End Design
 ### Wireframes
 
-[Roster Wireframe](/Captures/wireframe.png)
+[Roster Wireframe](/Captures/wireframe.PNG)
 
 ### Final Version 
 
-[Final Front End Design](/Captures/webpage.png)
+[Final Front End Design](/Captures/webpage.PNG)
 
 
 
