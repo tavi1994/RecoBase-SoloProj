@@ -8,15 +8,7 @@ function addRecord(form) {
             record[element.id] = element.value;
         }
     }
-    
-    // const formDataString = JSON.stringify(formDataObj);
-    //console.log(JSON.stringify(formDataObj));
-    
     registerRecord(record);
-    // makeRequest("POST", recordURL).then((req) => {
-    //     notification = JSON.parse(req.responseText);
-    //     joinNotify.innerText = notification.message
-    // }).catch((error) => { console.log(error.message) });
     $('#addNewModal').modal('hide');
     return false;
 }
@@ -31,16 +23,7 @@ function updateRecord(form) {
             record[id] = element.value;
         } 
     }
-    
-    // const formDataString = JSON.stringify(formDataObj);
-    //console.log(JSON.stringify(formDataObj));
-    
     editRecord(record.recordid, record);
-    // makeRequest("POST", recordURL).then((req) => {
-    //     notification = JSON.parse(req.responseText);
-    //     joinNotify.innerText = notification.message
-    // }).catch((error) => { console.log(error.message) });
-    // $('#addNewModal').modal('hide');
     return false;
 }
 
@@ -136,12 +119,3 @@ function onLoadRec() {
     recReq.open('GET', 'http://34.89.0.182:8444/record');
     recReq.send();
 }
-
-
-
-            // xhr.onload = () => {
-            //     location.href="index.html";
-            // }
-            // xhr.open("POST","http://localhost:8080/record");
-            // xhr.setRequestHeader('Content-Type','application/json');
-            // xhr.send(formDataString);
