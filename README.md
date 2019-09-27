@@ -1,6 +1,7 @@
 # Solo Project - Recordbase
 
 [RecoBase website](http://34.89.0.182)
+[Old repository with previous commits](https://github.com/tavi1994/RecoBaseDB)
 
 ## Index
 [Brief](#brief)
